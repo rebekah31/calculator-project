@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+.cal-frame{
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+
+.cal-row{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+
+.screen{
+    color: white;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+}
+
+button{
+    background-color: gainsboro;
+    width: 24.5%;
+    font-size: 40px;
+    border: none;
+    height: 100px;  
+    cursor: pointer;
+}
+button:last-child{
+    background-color: orange;
+    color: #fff;
+}
+.button :hover {
+    transition-duration: 0.3s;
+  }
+  
+.c-button{
+    width: 49.7%;
+}
+.zero{
+    width: 74.8%;
+    
+}
